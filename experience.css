@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    background-color: #FFF0F5;
+}
+
+.Principal{
+    display: flex;
+}
+
+.Menu{
+
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #800000;
+}
+
+.Menu-Posicao{
+    position: absolute;
+    top:50% ;
+    transform: translateY(-50%);
+}
+
+.menu-Imagem{
+    text-align: center;
+}
+
+.menu-Imagem img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.Menu-texto{
+
+    margin: 20%;
+    text-align: center;
+}
+
+.Menu-texto a{
+    color: white;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.Menu-texto a.Selecionada{
+    opacity: 1;
+}
+
+.Conteudo{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+
+}
+
+.Descricao{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Descricao h3{
+    color:#000000;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Descricao h4{
+    font-size: 36px;
+    text-align: left;
+
+}
